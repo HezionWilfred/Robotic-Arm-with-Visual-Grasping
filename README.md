@@ -191,15 +191,16 @@ rostopic echo /system_status
 
 ## 📚 Documentation
 
-- [Requirement Analysis]([docs/requirements.md](https://docs.google.com/document/d/1Cjd4_fvWr5iYqHqt0FfqEReUXn73dgq-Iq7RmYkoKQA/edit?usp=sharing)) - Detailed project requirements
-- [System Design](docs/architecture.md) - Technical architecture overview  
-- [API Reference](docs/api.md) - ROS topics, services, and messages
-- [User Guide](docs/user_guide.md) - Operation and maintenance manual
-- [Developer Guide](docs/dev_guide.md) - Setup and development instructions
+- **Requirement Analysis** – Defines the project goals, hardware/software needs, dataset strategy, and evaluation metrics.  
+  [📖 Read Full Document](https://docs.google.com/document/d/e/2PACX-1vTWHIKLwAYOayBMhqomi4HyCJyX6zqyl8QpjLR8-sovp_6rvmV_aca9dDCFIUuPn8mCMpcf9qqHAqK1/pub)  
+- [System Design](docs/architecture.md) – Technical architecture overview  
+- [API Reference](docs/api.md) – ROS topics, services, and messages  
+- [User Guide](docs/user_guide.md) – Operation and maintenance manual  
+- [Developer Guide](docs/dev_guide.md) – Setup and development instructions
 
 
 ---
 
 **⭐ Star this repository if you find it useful!**
 
-*Last updated: August 28, 2025*
+*Last updated: August 30, 2025*
