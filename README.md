@@ -198,6 +198,9 @@ rostopic echo /system_status
 - [User Guide](docs/user_guide.md) – Operation and maintenance manual  
 - [Developer Guide](docs/dev_guide.md) – Setup and development instructions
 
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
