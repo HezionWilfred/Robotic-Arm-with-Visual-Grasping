@@ -1,6 +1,6 @@
 # Robotic Arm with Visual Grasping
 
-[![ROS](https://img.shields.io/badge/ROS-Noetic-blue)](http://wiki.ros.org/noetic)
+[![ROS2](https://img.shields.io/badge/ROS2-Humble-blue)](https://docs.ros.org/en/humble/)
 [![Python](https://img.shields.io/badge/Python-3.8+-green)](https://python.org)
 [![License](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
 
@@ -28,7 +28,7 @@ This project develops a robotic manipulation system that combines computer visio
                                                           │
 ┌─────────────────┐    ┌──────────────────┐    ┌─────────────────┐
 │  Arm Control    │◀───│  Motion Planning │◀───│  Grasp Planning │
-│   (ROS Driver)  │    │    (MoveIt!)     │    │   (Synthesis)   │
+│   (ROS2 Driver)  │    │    (MoveIt!)     │    │   (Synthesis)   │
 └─────────────────┘    └──────────────────┘    └─────────────────┘
 ```
 
@@ -45,7 +45,7 @@ This project develops a robotic manipulation system that combines computer visio
 ## 💻 Software Stack
 
 ### Core Technologies
-- **ROS Noetic** - Robot Operating System framework
+- **ROS 2 Humble** - Robot Operating System framework
 - **YOLOv8** - Real-time object detection
 - **MoveIt!** - Motion planning and kinematics
 - **OpenCV** - Computer vision processing
@@ -53,10 +53,14 @@ This project develops a robotic manipulation system that combines computer visio
 
 ### Dependencies
 ```bash
-# ROS packages
-ros-noetic-moveit
-ros-noetic-realsense2-camera
-ros-noetic-vision-msgs
+# ROS 2 packages
+sudo apt install -y \
+  ros-humble-moveit \
+  ros-humble-realsense2-camera \
+  ros-humble-vision-msgs \
+  ros-humble-rviz2 \
+  ros-humble-cv-bridge \
+  ros-humble-image-transport
 
 # Python packages  
 torch torchvision
@@ -84,7 +88,7 @@ pyrealsense2
 ## 🚀 Quick Start
 
 ### Prerequisites
-- Ubuntu 20.04 with ROS Noetic
+- Ubuntu 20.04 with ROS 2 Humble
 - CUDA-capable GPU (GTX 1060+ or Jetson Xavier NX)
 - Intel RealSense D435 camera
 - Compatible 6-DOF robotic arm
@@ -114,31 +118,31 @@ source devel/setup.bash
 
 4. **Run calibration**
 ```bash
-roslaunch robot_grasping calibrate_camera.launch
+ros2 launch robot_grasping calibrate_camera.launch
 ```
 
 ### Basic Usage
 
 1. **Start the complete system**
 ```bash
-roslaunch robot_grasping full_system.launch
+ros2 launch robot_grasping full_system.launch
 ```
 
 2. **Run a grasping demo**
 ```bash
-rosservice call /grasp_object "object_name: 'bottle'"
+ros2 service call /grasp_object "object_name: 'bottle'"
 ```
 
 3. **Monitor system status**
 ```bash
-rostopic echo /system_status
+ros2 topic echo /system_status
 ```
 
 ## 📊 Development Progress
 
 ### Phase 1: Hardware Integration ✅
 - [x] Camera and arm communication setup
-- [x] ROS node architecture implementation
+- [x] ROS2 node architecture implementation
 - [x] Basic safety systems integration
 
 ### Phase 2: Perception Module 🔄
@@ -193,14 +197,17 @@ rostopic echo /system_status
 
 - **Requirement Analysis** – Defines the project goals, hardware/software needs, dataset strategy, and evaluation metrics.  
   [📖 Read Full Document](https://docs.google.com/document/d/e/2PACX-1vTWHIKLwAYOayBMhqomi4HyCJyX6zqyl8QpjLR8-sovp_6rvmV_aca9dDCFIUuPn8mCMpcf9qqHAqK1/pub)  
-- [System Design](docs/architecture.md) – Technical architecture overview  
-- [API Reference](docs/api.md) – ROS topics, services, and messages  
+- [System Design](https://docs.google.com/document/d/e/2PACX-1vQWGvF9tzwzcWJiz9-WvZGufjkWumws61UdmAHC1DF8FfClAnKO5x-FtkmKsAKcBcEzFPeYtYDkS2Y_/pub) – Technical architecture overview  
+- [API Reference](docs/api.md) – ROS2 topics, services, and messages  
 - [User Guide](docs/user_guide.md) – Operation and maintenance manual  
 - [Developer Guide](docs/dev_guide.md) – Setup and development instructions
 
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
 **⭐ Star this repository if you find it useful!**
 
-*Last updated: August 30, 2025*
+*Last updated: September 02, 2025*
