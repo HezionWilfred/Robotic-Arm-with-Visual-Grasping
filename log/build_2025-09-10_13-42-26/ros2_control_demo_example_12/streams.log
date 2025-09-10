@@ -1,0 +1,76 @@
+[0.070s] Invoking command in '/home/ws/build/ros2_control_demo_example_12': CMAKE_PREFIX_PATH=/home/ws/install/ros2_control_demo_description:/home/ws/install/ros2_control_demos:/home/ws/install/ros2_control_demo_example_9:/home/ws/install/ros2_control_demo_example_8:/home/ws/install/ros2_control_demo_example_7:/home/ws/install/ros2_control_demo_example_6:/home/ws/install/ros2_control_demo_example_15:/home/ws/install/ros2_control_demo_example_13:/home/ws/install/ros2_control_demo_example_5:/home/ws/install/ros2_control_demo_example_4:/home/ws/install/ros2_control_demo_example_3:/home/ws/install/ros2_control_demo_example_2:/home/ws/install/ros2_control_demo_example_14:/home/ws/install/ros2_control_demo_example_12:/home/ws/install/ros2_control_demo_example_11:/home/ws/install/ros2_control_demo_example_10:/home/ws/install/ros2_control_demo_example_1:/opt/ros/humble /usr/bin/cmake --build /home/ws/build/ros2_control_demo_example_12 -- -j12 -l12
+[0.126s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.234s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.249s] -- Found hardware_interface: 2.51.0 (/opt/ros/humble/share/hardware_interface/cmake)
+[0.297s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.303s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.312s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.324s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.339s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.541s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.542s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.559s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.568s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.583s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.594s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.605s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.673s] -- Found generate_parameter_library: 0.5.0 (/opt/ros/humble/share/generate_parameter_library/cmake)
+[0.673s] -- Found parameter_traits: 0.5.0 (/opt/ros/humble/share/parameter_traits/cmake)
+[0.691s] -- Found controller_interface: 2.51.0 (/opt/ros/humble/share/controller_interface/cmake)
+[0.695s] -- Found realtime_tools: 2.14.0 (/opt/ros/humble/share/realtime_tools/cmake)
+[0.756s] -- Found ament_cmake_pytest: 1.3.12 (/opt/ros/humble/share/ament_cmake_pytest/cmake)
+[2.252s] -- Configuring done
+[2.342s] -- Generating done
+[2.367s] -- Build files have been written to: /home/ws/build/ros2_control_demo_example_12
+[2.407s] [35m[1mConsolidate compiler generated dependencies of target ros2_control_demo_example_12[0m
+[2.417s] [ 16%] [34m[1mCreating deprecated header file /home/ws/build/ros2_control_demo_example_12/include/passthrough_controller_parameters.hpp[0m
+[2.443s] [ 50%] Built target ros2_control_demo_example_12
+[2.473s] [ 66%] Built target passthrough_controller_parameters
+[2.474s] [35m[1mConsolidate compiler generated dependencies of target passthrough_controller[0m
+[2.489s] [ 83%] [32mBuilding CXX object CMakeFiles/passthrough_controller.dir/controllers/src/passthrough_controller.cpp.o[0m
+[9.077s] [100%] [32m[1mLinking CXX shared library libpassthrough_controller.so[0m
+[9.497s] [100%] Built target passthrough_controller
+[9.508s] Invoked command in '/home/ws/build/ros2_control_demo_example_12' returned '0': CMAKE_PREFIX_PATH=/home/ws/install/ros2_control_demo_description:/home/ws/install/ros2_control_demos:/home/ws/install/ros2_control_demo_example_9:/home/ws/install/ros2_control_demo_example_8:/home/ws/install/ros2_control_demo_example_7:/home/ws/install/ros2_control_demo_example_6:/home/ws/install/ros2_control_demo_example_15:/home/ws/install/ros2_control_demo_example_13:/home/ws/install/ros2_control_demo_example_5:/home/ws/install/ros2_control_demo_example_4:/home/ws/install/ros2_control_demo_example_3:/home/ws/install/ros2_control_demo_example_2:/home/ws/install/ros2_control_demo_example_14:/home/ws/install/ros2_control_demo_example_12:/home/ws/install/ros2_control_demo_example_11:/home/ws/install/ros2_control_demo_example_10:/home/ws/install/ros2_control_demo_example_1:/opt/ros/humble /usr/bin/cmake --build /home/ws/build/ros2_control_demo_example_12 -- -j12 -l12
+[9.509s] Invoking command in '/home/ws/build/ros2_control_demo_example_12': CMAKE_PREFIX_PATH=/home/ws/install/ros2_control_demo_description:/home/ws/install/ros2_control_demos:/home/ws/install/ros2_control_demo_example_9:/home/ws/install/ros2_control_demo_example_8:/home/ws/install/ros2_control_demo_example_7:/home/ws/install/ros2_control_demo_example_6:/home/ws/install/ros2_control_demo_example_15:/home/ws/install/ros2_control_demo_example_13:/home/ws/install/ros2_control_demo_example_5:/home/ws/install/ros2_control_demo_example_4:/home/ws/install/ros2_control_demo_example_3:/home/ws/install/ros2_control_demo_example_2:/home/ws/install/ros2_control_demo_example_14:/home/ws/install/ros2_control_demo_example_12:/home/ws/install/ros2_control_demo_example_11:/home/ws/install/ros2_control_demo_example_10:/home/ws/install/ros2_control_demo_example_1:/opt/ros/humble /usr/bin/cmake --install /home/ws/build/ros2_control_demo_example_12
+[9.517s] -- Install configuration: ""
+[9.517s] -- Execute custom install script
+[9.517s] -- Up-to-date symlink: /home/ws/install/ros2_control_demo_example_12/share/ros2_control_demo_example_12//ros2_control_demo_example_12.xml
+[9.517s] -- Up-to-date symlink: /home/ws/install/ros2_control_demo_example_12/include/ros2_control_demo_example_12/passthrough_controller_parameters.hpp
+[9.518s] -- Up-to-date symlink: /home/ws/install/ros2_control_demo_example_12/share/ros2_control_demo_example_12//passthrough_controller.xml
+[9.518s] -- Up-to-date symlink: /home/ws/install/ros2_control_demo_example_12/include/ros2_control_demo_example_12/ros2_control_demo_example_12/rrbot.hpp
+[9.518s] -- Up-to-date symlink: /home/ws/install/ros2_control_demo_example_12/share/ros2_control_demo_example_12/launch/view_robot.launch.py
+[9.518s] -- Up-to-date symlink: /home/ws/install/ros2_control_demo_example_12/share/ros2_control_demo_example_12/ros2_control/rrbot.ros2_control.xacro
+[9.518s] -- Up-to-date symlink: /home/ws/install/ros2_control_demo_example_12/share/ros2_control_demo_example_12/urdf/rrbot.urdf.xacro
+[9.518s] -- Up-to-date symlink: /home/ws/install/ros2_control_demo_example_12/share/ros2_control_demo_example_12/launch/launch_chained_controllers.launch.py
+[9.518s] -- Up-to-date symlink: /home/ws/install/ros2_control_demo_example_12/share/ros2_control_demo_example_12/launch/rrbot.launch.py
+[9.518s] -- Up-to-date symlink: /home/ws/install/ros2_control_demo_example_12/share/ros2_control_demo_example_12/config/rrbot_chained_controllers.yaml
+[9.519s] -- Up-to-date symlink: /home/ws/install/ros2_control_demo_example_12/include/passthrough_controller/passthrough_controller/passthrough_controller.hpp
+[9.519s] -- Up-to-date symlink: /home/ws/install/ros2_control_demo_example_12/share/ros2_control_demo_example_12/environment/library_path.sh
+[9.519s] -- Up-to-date symlink: /home/ws/install/ros2_control_demo_example_12/share/ros2_control_demo_example_12/environment/library_path.dsv
+[9.519s] -- Up-to-date symlink: /home/ws/install/ros2_control_demo_example_12/share/ament_index/resource_index/package_run_dependencies/ros2_control_demo_example_12
+[9.519s] -- Up-to-date symlink: /home/ws/install/ros2_control_demo_example_12/share/ament_index/resource_index/parent_prefix_path/ros2_control_demo_example_12
+[9.519s] -- Up-to-date symlink: /home/ws/install/ros2_control_demo_example_12/share/ros2_control_demo_example_12/environment/ament_prefix_path.sh
+[9.519s] -- Up-to-date symlink: /home/ws/install/ros2_control_demo_example_12/share/ros2_control_demo_example_12/environment/ament_prefix_path.dsv
+[9.519s] -- Up-to-date symlink: /home/ws/install/ros2_control_demo_example_12/share/ros2_control_demo_example_12/environment/path.sh
+[9.519s] -- Up-to-date symlink: /home/ws/install/ros2_control_demo_example_12/share/ros2_control_demo_example_12/environment/path.dsv
+[9.519s] -- Up-to-date symlink: /home/ws/install/ros2_control_demo_example_12/share/ros2_control_demo_example_12/local_setup.bash
+[9.519s] -- Up-to-date symlink: /home/ws/install/ros2_control_demo_example_12/share/ros2_control_demo_example_12/local_setup.sh
+[9.519s] -- Up-to-date symlink: /home/ws/install/ros2_control_demo_example_12/share/ros2_control_demo_example_12/local_setup.zsh
+[9.520s] -- Up-to-date symlink: /home/ws/install/ros2_control_demo_example_12/share/ros2_control_demo_example_12/local_setup.dsv
+[9.520s] -- Symlinking: /home/ws/install/ros2_control_demo_example_12/share/ros2_control_demo_example_12/package.dsv
+[9.527s] -- Up-to-date symlink: /home/ws/install/ros2_control_demo_example_12/share/ament_index/resource_index/packages/ros2_control_demo_example_12
+[9.527s] -- Up-to-date symlink: /home/ws/install/ros2_control_demo_example_12/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/ros2_control_demo_example_12
+[9.527s] -- Up-to-date symlink: /home/ws/install/ros2_control_demo_example_12/share/ament_index/resource_index/controller_interface__pluginlib__plugin/ros2_control_demo_example_12
+[9.527s] -- Up-to-date symlink: /home/ws/install/ros2_control_demo_example_12/share/ros2_control_demo_example_12/cmake/ament_cmake_export_dependencies-extras.cmake
+[9.527s] -- Up-to-date symlink: /home/ws/install/ros2_control_demo_example_12/share/ros2_control_demo_example_12/cmake/ament_cmake_export_targets-extras.cmake
+[9.527s] -- Up-to-date symlink: /home/ws/install/ros2_control_demo_example_12/share/ros2_control_demo_example_12/cmake/ros2_control_demo_example_12Config.cmake
+[9.527s] -- Up-to-date symlink: /home/ws/install/ros2_control_demo_example_12/share/ros2_control_demo_example_12/cmake/ros2_control_demo_example_12Config-version.cmake
+[9.527s] -- Up-to-date symlink: /home/ws/install/ros2_control_demo_example_12/share/ros2_control_demo_example_12/package.xml
+[9.527s] -- Up-to-date: /home/ws/install/ros2_control_demo_example_12/lib/libros2_control_demo_example_12.so
+[9.528s] -- Installing: /home/ws/install/ros2_control_demo_example_12/lib/libpassthrough_controller.so
+[9.531s] -- Set runtime path of "/home/ws/install/ros2_control_demo_example_12/lib/libpassthrough_controller.so" to ""
+[9.532s] -- Up-to-date: /home/ws/install/ros2_control_demo_example_12/share/ros2_control_demo_example_12/cmake/export_passthrough_controllerExport.cmake
+[9.532s] -- Up-to-date: /home/ws/install/ros2_control_demo_example_12/share/ros2_control_demo_example_12/cmake/export_passthrough_controllerExport-noconfig.cmake
+[9.532s] -- Up-to-date: /home/ws/install/ros2_control_demo_example_12/share/ros2_control_demo_example_12/cmake/export_ros2_control_demo_example_12Export.cmake
+[9.532s] -- Up-to-date: /home/ws/install/ros2_control_demo_example_12/share/ros2_control_demo_example_12/cmake/export_ros2_control_demo_example_12Export-noconfig.cmake
+[9.534s] Invoked command in '/home/ws/build/ros2_control_demo_example_12' returned '0': CMAKE_PREFIX_PATH=/home/ws/install/ros2_control_demo_description:/home/ws/install/ros2_control_demos:/home/ws/install/ros2_control_demo_example_9:/home/ws/install/ros2_control_demo_example_8:/home/ws/install/ros2_control_demo_example_7:/home/ws/install/ros2_control_demo_example_6:/home/ws/install/ros2_control_demo_example_15:/home/ws/install/ros2_control_demo_example_13:/home/ws/install/ros2_control_demo_example_5:/home/ws/install/ros2_control_demo_example_4:/home/ws/install/ros2_control_demo_example_3:/home/ws/install/ros2_control_demo_example_2:/home/ws/install/ros2_control_demo_example_14:/home/ws/install/ros2_control_demo_example_12:/home/ws/install/ros2_control_demo_example_11:/home/ws/install/ros2_control_demo_example_10:/home/ws/install/ros2_control_demo_example_1:/opt/ros/humble /usr/bin/cmake --install /home/ws/build/ros2_control_demo_example_12
