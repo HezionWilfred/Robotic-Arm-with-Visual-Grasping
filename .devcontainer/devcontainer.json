@@ -33,18 +33,7 @@
         "--ipc=host",
         "-e", "DISPLAY=${env:DISPLAY}"
     ],
-    "mounts": [
-  {
-    "source": "/tmp/.X11-unix",
-    "target": "/tmp/.X11-unix",
-    "type": "bind"
-  },
-  {
-    "source": "/dev/dri",
-    "target": "/dev/dri",
-    "type": "bind"
-  }
-],
+    "mounts": [],
 
 
     "postCreateCommand": "sudo rosdep update && sudo rosdep install --from-paths src --ignore-src -y && sudo chown -R $(whoami) /home/ws/"

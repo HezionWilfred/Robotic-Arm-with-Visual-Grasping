@@ -1,0 +1,77 @@
+[0.040s] Invoking command in '/home/ws/build/ros2_control_demo_example_6': AMENT_PREFIX_PATH=/home/ws/install/ros2_control_demo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ws/install/ros2_control_demo_description:/opt/ros/humble /usr/bin/cmake /home/ws/src/ros2_control_demos/example_6 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ws/install/ros2_control_demo_example_6
+[3.189s] -- The CXX compiler identification is GNU 11.4.0
+[3.189s] -- Detecting CXX compiler ABI info
+[3.189s] -- Detecting CXX compiler ABI info - done
+[3.189s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.189s] -- Detecting CXX compile features
+[3.189s] -- Detecting CXX compile features - done
+[3.190s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.190s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.190s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.190s] -- Found hardware_interface: 2.51.0 (/opt/ros/humble/share/hardware_interface/cmake)
+[3.190s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.190s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.190s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.190s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.190s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.190s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.190s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.190s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[3.190s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.190s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[3.190s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.190s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[3.190s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[3.190s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.190s] -- Looking for C++ include pthread.h
+[3.191s] -- Looking for C++ include pthread.h - found
+[3.191s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.191s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.191s] -- Found Threads: TRUE  
+[3.191s] -- Found ament_cmake_pytest: 1.3.12 (/opt/ros/humble/share/ament_cmake_pytest/cmake)
+[3.231s] -- Configuring done
+[3.268s] -- Generating done
+[3.277s] -- Build files have been written to: /home/ws/build/ros2_control_demo_example_6
+[3.295s] Invoked command in '/home/ws/build/ros2_control_demo_example_6' returned '0': AMENT_PREFIX_PATH=/home/ws/install/ros2_control_demo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ws/install/ros2_control_demo_description:/opt/ros/humble /usr/bin/cmake /home/ws/src/ros2_control_demos/example_6 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ws/install/ros2_control_demo_example_6
+[3.295s] Invoking command in '/home/ws/build/ros2_control_demo_example_6': AMENT_PREFIX_PATH=/home/ws/install/ros2_control_demo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ws/install/ros2_control_demo_description:/opt/ros/humble /usr/bin/cmake --build /home/ws/build/ros2_control_demo_example_6 -- -j12 -l12
+[3.502s] [ 50%] [32mBuilding CXX object CMakeFiles/ros2_control_demo_example_6.dir/hardware/rrbot_actuator.cpp.o[0m
+[10.629s] [100%] [32m[1mLinking CXX shared library libros2_control_demo_example_6.so[0m
+[10.954s] [100%] Built target ros2_control_demo_example_6
+[10.994s] Invoked command in '/home/ws/build/ros2_control_demo_example_6' returned '0': AMENT_PREFIX_PATH=/home/ws/install/ros2_control_demo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ws/install/ros2_control_demo_description:/opt/ros/humble /usr/bin/cmake --build /home/ws/build/ros2_control_demo_example_6 -- -j12 -l12
+[10.994s] Invoking command in '/home/ws/build/ros2_control_demo_example_6': AMENT_PREFIX_PATH=/home/ws/install/ros2_control_demo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ws/install/ros2_control_demo_description:/opt/ros/humble /usr/bin/cmake --install /home/ws/build/ros2_control_demo_example_6
+[11.340s] -- Install configuration: ""
+[11.340s] -- Execute custom install script
+[11.340s] -- Symlinking: /home/ws/install/ros2_control_demo_example_6/share/ros2_control_demo_example_6//ros2_control_demo_example_6.xml
+[11.340s] -- Symlinking: /home/ws/install/ros2_control_demo_example_6/include/ros2_control_demo_example_6/ros2_control_demo_example_6/rrbot_actuator.hpp
+[11.340s] -- Symlinking: /home/ws/install/ros2_control_demo_example_6/share/ros2_control_demo_example_6/launch/view_robot.launch.py
+[11.340s] -- Symlinking: /home/ws/install/ros2_control_demo_example_6/share/ros2_control_demo_example_6/ros2_control/rrbot_modular_actuators.ros2_control.xacro
+[11.340s] -- Symlinking: /home/ws/install/ros2_control_demo_example_6/share/ros2_control_demo_example_6/urdf/rrbot_modular_actuators.urdf.xacro
+[11.340s] -- Symlinking: /home/ws/install/ros2_control_demo_example_6/share/ros2_control_demo_example_6/launch/rrbot_modular_actuators.launch.py
+[11.340s] -- Symlinking: /home/ws/install/ros2_control_demo_example_6/share/ros2_control_demo_example_6/launch/test_forward_position_controller.launch.py
+[11.340s] -- Symlinking: /home/ws/install/ros2_control_demo_example_6/share/ros2_control_demo_example_6/config/rrbot_forward_position_publisher.yaml
+[11.341s] -- Symlinking: /home/ws/install/ros2_control_demo_example_6/share/ros2_control_demo_example_6/config/rrbot_modular_actuators.yaml
+[11.341s] -- Symlinking: /home/ws/install/ros2_control_demo_example_6/share/ros2_control_demo_example_6/environment/library_path.sh
+[11.341s] -- Symlinking: /home/ws/install/ros2_control_demo_example_6/share/ros2_control_demo_example_6/environment/library_path.dsv
+[11.341s] -- Symlinking: /home/ws/install/ros2_control_demo_example_6/share/ament_index/resource_index/package_run_dependencies/ros2_control_demo_example_6
+[11.341s] -- Symlinking: /home/ws/install/ros2_control_demo_example_6/share/ament_index/resource_index/parent_prefix_path/ros2_control_demo_example_6
+[11.341s] -- Symlinking: /home/ws/install/ros2_control_demo_example_6/share/ros2_control_demo_example_6/environment/ament_prefix_path.sh
+[11.341s] -- Symlinking: /home/ws/install/ros2_control_demo_example_6/share/ros2_control_demo_example_6/environment/ament_prefix_path.dsv
+[11.341s] -- Symlinking: /home/ws/install/ros2_control_demo_example_6/share/ros2_control_demo_example_6/environment/path.sh
+[11.341s] -- Symlinking: /home/ws/install/ros2_control_demo_example_6/share/ros2_control_demo_example_6/environment/path.dsv
+[11.341s] -- Symlinking: /home/ws/install/ros2_control_demo_example_6/share/ros2_control_demo_example_6/local_setup.bash
+[11.341s] -- Symlinking: /home/ws/install/ros2_control_demo_example_6/share/ros2_control_demo_example_6/local_setup.sh
+[11.341s] -- Symlinking: /home/ws/install/ros2_control_demo_example_6/share/ros2_control_demo_example_6/local_setup.zsh
+[11.341s] -- Symlinking: /home/ws/install/ros2_control_demo_example_6/share/ros2_control_demo_example_6/local_setup.dsv
+[11.353s] -- Symlinking: /home/ws/install/ros2_control_demo_example_6/share/ros2_control_demo_example_6/package.dsv
+[11.376s] -- Symlinking: /home/ws/install/ros2_control_demo_example_6/share/ament_index/resource_index/packages/ros2_control_demo_example_6
+[11.382s] -- Symlinking: /home/ws/install/ros2_control_demo_example_6/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/ros2_control_demo_example_6
+[11.401s] -- Symlinking: /home/ws/install/ros2_control_demo_example_6/share/ros2_control_demo_example_6/cmake/ament_cmake_export_targets-extras.cmake
+[11.425s] -- Symlinking: /home/ws/install/ros2_control_demo_example_6/share/ros2_control_demo_example_6/cmake/ament_cmake_export_dependencies-extras.cmake
+[11.434s] -- Symlinking: /home/ws/install/ros2_control_demo_example_6/share/ros2_control_demo_example_6/cmake/ros2_control_demo_example_6Config.cmake
+[11.443s] -- Symlinking: /home/ws/install/ros2_control_demo_example_6/share/ros2_control_demo_example_6/cmake/ros2_control_demo_example_6Config-version.cmake
+[11.466s] -- Symlinking: /home/ws/install/ros2_control_demo_example_6/share/ros2_control_demo_example_6/package.xml
+[11.479s] -- Installing: /home/ws/install/ros2_control_demo_example_6/lib/libros2_control_demo_example_6.so
+[11.480s] -- Set runtime path of "/home/ws/install/ros2_control_demo_example_6/lib/libros2_control_demo_example_6.so" to ""
+[11.480s] -- Installing: /home/ws/install/ros2_control_demo_example_6/share/ros2_control_demo_example_6/cmake/export_ros2_control_demo_example_6Export.cmake
+[11.480s] -- Installing: /home/ws/install/ros2_control_demo_example_6/share/ros2_control_demo_example_6/cmake/export_ros2_control_demo_example_6Export-noconfig.cmake
+[11.511s] Invoked command in '/home/ws/build/ros2_control_demo_example_6' returned '0': AMENT_PREFIX_PATH=/home/ws/install/ros2_control_demo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ws/install/ros2_control_demo_description:/opt/ros/humble /usr/bin/cmake --install /home/ws/build/ros2_control_demo_example_6

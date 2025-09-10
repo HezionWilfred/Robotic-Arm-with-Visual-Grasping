@@ -1,0 +1,50 @@
+[0.026s] Invoking command in '/home/ws/build/ros2_control_demo_example_13': AMENT_PREFIX_PATH=/home/ws/install/ros2_control_demo_example_5:/home/ws/install/ros2_control_demo_example_4:/home/ws/install/ros2_control_demo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ws/install/ros2_control_demo_example_5:/home/ws/install/ros2_control_demo_example_4:/home/ws/install/ros2_control_demo_description:/opt/ros/humble LD_LIBRARY_PATH=/home/ws/install/ros2_control_demo_example_5/lib:/home/ws/install/ros2_control_demo_example_4/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/ws/src/ros2_control_demos/example_13 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ws/install/ros2_control_demo_example_13
+[0.087s] -- The CXX compiler identification is GNU 11.4.0
+[0.096s] -- Detecting CXX compiler ABI info
+[0.178s] -- Detecting CXX compiler ABI info - done
+[0.186s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.186s] -- Detecting CXX compile features
+[0.186s] -- Detecting CXX compile features - done
+[0.188s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.306s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.359s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.383s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.393s] -- Found launch_testing_ament_cmake: 1.0.10 (/opt/ros/humble/share/launch_testing_ament_cmake/cmake)
+[0.397s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[0.420s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[0.429s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[0.429s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.429s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.429s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[0.447s] -- Found PythonExtra: .so  
+[0.983s] -- Configuring done
+[0.986s] -- Generating done
+[0.988s] -- Build files have been written to: /home/ws/build/ros2_control_demo_example_13
+[0.993s] Invoked command in '/home/ws/build/ros2_control_demo_example_13' returned '0': AMENT_PREFIX_PATH=/home/ws/install/ros2_control_demo_example_5:/home/ws/install/ros2_control_demo_example_4:/home/ws/install/ros2_control_demo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ws/install/ros2_control_demo_example_5:/home/ws/install/ros2_control_demo_example_4:/home/ws/install/ros2_control_demo_description:/opt/ros/humble LD_LIBRARY_PATH=/home/ws/install/ros2_control_demo_example_5/lib:/home/ws/install/ros2_control_demo_example_4/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/ws/src/ros2_control_demos/example_13 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ws/install/ros2_control_demo_example_13
+[0.994s] Invoking command in '/home/ws/build/ros2_control_demo_example_13': AMENT_PREFIX_PATH=/home/ws/install/ros2_control_demo_example_5:/home/ws/install/ros2_control_demo_example_4:/home/ws/install/ros2_control_demo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ws/install/ros2_control_demo_example_5:/home/ws/install/ros2_control_demo_example_4:/home/ws/install/ros2_control_demo_description:/opt/ros/humble LD_LIBRARY_PATH=/home/ws/install/ros2_control_demo_example_5/lib:/home/ws/install/ros2_control_demo_example_4/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/ws/build/ros2_control_demo_example_13 -- -j12 -l12
+[1.040s] Invoked command in '/home/ws/build/ros2_control_demo_example_13' returned '0': AMENT_PREFIX_PATH=/home/ws/install/ros2_control_demo_example_5:/home/ws/install/ros2_control_demo_example_4:/home/ws/install/ros2_control_demo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ws/install/ros2_control_demo_example_5:/home/ws/install/ros2_control_demo_example_4:/home/ws/install/ros2_control_demo_description:/opt/ros/humble LD_LIBRARY_PATH=/home/ws/install/ros2_control_demo_example_5/lib:/home/ws/install/ros2_control_demo_example_4/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/ws/build/ros2_control_demo_example_13 -- -j12 -l12
+[1.040s] Invoking command in '/home/ws/build/ros2_control_demo_example_13': AMENT_PREFIX_PATH=/home/ws/install/ros2_control_demo_example_5:/home/ws/install/ros2_control_demo_example_4:/home/ws/install/ros2_control_demo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ws/install/ros2_control_demo_example_5:/home/ws/install/ros2_control_demo_example_4:/home/ws/install/ros2_control_demo_description:/opt/ros/humble LD_LIBRARY_PATH=/home/ws/install/ros2_control_demo_example_5/lib:/home/ws/install/ros2_control_demo_example_4/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/ws/build/ros2_control_demo_example_13
+[1.047s] -- Install configuration: ""
+[1.047s] -- Execute custom install script
+[1.048s] -- Symlinking: /home/ws/install/ros2_control_demo_example_13/share/ros2_control_demo_example_13/ros2_control/threedofbot.ros2_control.xacro
+[1.059s] -- Symlinking: /home/ws/install/ros2_control_demo_example_13/share/ros2_control_demo_example_13/urdf/three_robots.urdf.xacro
+[1.070s] -- Symlinking: /home/ws/install/ros2_control_demo_example_13/share/ros2_control_demo_example_13/rviz/three_robots.rviz
+[1.093s] -- Symlinking: /home/ws/install/ros2_control_demo_example_13/share/ros2_control_demo_example_13/launch/three_robots.launch.py
+[1.105s] -- Symlinking: /home/ws/install/ros2_control_demo_example_13/share/ros2_control_demo_example_13/config/three_robots_controllers.yaml
+[1.115s] -- Symlinking: /home/ws/install/ros2_control_demo_example_13/share/ros2_control_demo_example_13/config/three_robots_position_command_publishers.yaml
+[1.141s] -- Symlinking: /home/ws/install/ros2_control_demo_example_13/share/ament_index/resource_index/package_run_dependencies/ros2_control_demo_example_13
+[1.148s] -- Symlinking: /home/ws/install/ros2_control_demo_example_13/share/ament_index/resource_index/parent_prefix_path/ros2_control_demo_example_13
+[1.156s] -- Symlinking: /home/ws/install/ros2_control_demo_example_13/share/ros2_control_demo_example_13/environment/ament_prefix_path.sh
+[1.167s] -- Symlinking: /home/ws/install/ros2_control_demo_example_13/share/ros2_control_demo_example_13/environment/ament_prefix_path.dsv
+[1.177s] -- Symlinking: /home/ws/install/ros2_control_demo_example_13/share/ros2_control_demo_example_13/environment/path.sh
+[1.185s] -- Symlinking: /home/ws/install/ros2_control_demo_example_13/share/ros2_control_demo_example_13/environment/path.dsv
+[1.196s] -- Symlinking: /home/ws/install/ros2_control_demo_example_13/share/ros2_control_demo_example_13/local_setup.bash
+[1.211s] -- Symlinking: /home/ws/install/ros2_control_demo_example_13/share/ros2_control_demo_example_13/local_setup.sh
+[1.219s] -- Symlinking: /home/ws/install/ros2_control_demo_example_13/share/ros2_control_demo_example_13/local_setup.zsh
+[1.234s] -- Symlinking: /home/ws/install/ros2_control_demo_example_13/share/ros2_control_demo_example_13/local_setup.dsv
+[1.247s] -- Symlinking: /home/ws/install/ros2_control_demo_example_13/share/ros2_control_demo_example_13/package.dsv
+[1.258s] -- Symlinking: /home/ws/install/ros2_control_demo_example_13/share/ament_index/resource_index/packages/ros2_control_demo_example_13
+[1.269s] -- Symlinking: /home/ws/install/ros2_control_demo_example_13/share/ros2_control_demo_example_13/cmake/ros2_control_demo_example_13Config.cmake
+[1.279s] -- Symlinking: /home/ws/install/ros2_control_demo_example_13/share/ros2_control_demo_example_13/cmake/ros2_control_demo_example_13Config-version.cmake
+[1.289s] -- Symlinking: /home/ws/install/ros2_control_demo_example_13/share/ros2_control_demo_example_13/package.xml
+[1.298s] Invoked command in '/home/ws/build/ros2_control_demo_example_13' returned '0': AMENT_PREFIX_PATH=/home/ws/install/ros2_control_demo_example_5:/home/ws/install/ros2_control_demo_example_4:/home/ws/install/ros2_control_demo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ws/install/ros2_control_demo_example_5:/home/ws/install/ros2_control_demo_example_4:/home/ws/install/ros2_control_demo_description:/opt/ros/humble LD_LIBRARY_PATH=/home/ws/install/ros2_control_demo_example_5/lib:/home/ws/install/ros2_control_demo_example_4/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/ws/build/ros2_control_demo_example_13

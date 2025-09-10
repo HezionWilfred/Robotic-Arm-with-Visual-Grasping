@@ -1,2 +1,0 @@
-Invoking command in '/home/ws/build/moveit2_tutorials': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ws/moveit2_tutorials -DCMAKE_INSTALL_PREFIX=/home/ws/install/moveit2_tutorials
-Invoked command in '/home/ws/build/moveit2_tutorials' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ws/moveit2_tutorials -DCMAKE_INSTALL_PREFIX=/home/ws/install/moveit2_tutorials

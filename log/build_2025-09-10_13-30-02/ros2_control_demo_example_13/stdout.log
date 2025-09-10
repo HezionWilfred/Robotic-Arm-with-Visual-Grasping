@@ -1,0 +1,23 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/ws/install/ros2_control_demo_example_13/share/ros2_control_demo_example_13/ros2_control/threedofbot.ros2_control.xacro
+-- Up-to-date symlink: /home/ws/install/ros2_control_demo_example_13/share/ros2_control_demo_example_13/urdf/three_robots.urdf.xacro
+-- Up-to-date symlink: /home/ws/install/ros2_control_demo_example_13/share/ros2_control_demo_example_13/rviz/three_robots.rviz
+-- Up-to-date symlink: /home/ws/install/ros2_control_demo_example_13/share/ros2_control_demo_example_13/launch/three_robots.launch.py
+-- Up-to-date symlink: /home/ws/install/ros2_control_demo_example_13/share/ros2_control_demo_example_13/config/three_robots_controllers.yaml
+-- Up-to-date symlink: /home/ws/install/ros2_control_demo_example_13/share/ros2_control_demo_example_13/config/three_robots_position_command_publishers.yaml
+-- Up-to-date symlink: /home/ws/install/ros2_control_demo_example_13/share/ament_index/resource_index/package_run_dependencies/ros2_control_demo_example_13
+-- Up-to-date symlink: /home/ws/install/ros2_control_demo_example_13/share/ament_index/resource_index/parent_prefix_path/ros2_control_demo_example_13
+-- Up-to-date symlink: /home/ws/install/ros2_control_demo_example_13/share/ros2_control_demo_example_13/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/ws/install/ros2_control_demo_example_13/share/ros2_control_demo_example_13/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/ws/install/ros2_control_demo_example_13/share/ros2_control_demo_example_13/environment/path.sh
+-- Up-to-date symlink: /home/ws/install/ros2_control_demo_example_13/share/ros2_control_demo_example_13/environment/path.dsv
+-- Up-to-date symlink: /home/ws/install/ros2_control_demo_example_13/share/ros2_control_demo_example_13/local_setup.bash
+-- Up-to-date symlink: /home/ws/install/ros2_control_demo_example_13/share/ros2_control_demo_example_13/local_setup.sh
+-- Up-to-date symlink: /home/ws/install/ros2_control_demo_example_13/share/ros2_control_demo_example_13/local_setup.zsh
+-- Up-to-date symlink: /home/ws/install/ros2_control_demo_example_13/share/ros2_control_demo_example_13/local_setup.dsv
+-- Symlinking: /home/ws/install/ros2_control_demo_example_13/share/ros2_control_demo_example_13/package.dsv
+-- Up-to-date symlink: /home/ws/install/ros2_control_demo_example_13/share/ament_index/resource_index/packages/ros2_control_demo_example_13
+-- Up-to-date symlink: /home/ws/install/ros2_control_demo_example_13/share/ros2_control_demo_example_13/cmake/ros2_control_demo_example_13Config.cmake
+-- Up-to-date symlink: /home/ws/install/ros2_control_demo_example_13/share/ros2_control_demo_example_13/cmake/ros2_control_demo_example_13Config-version.cmake
+-- Up-to-date symlink: /home/ws/install/ros2_control_demo_example_13/share/ros2_control_demo_example_13/package.xml
