@@ -1,0 +1,26 @@
+[0.051s] Invoking command in '/home/ws/src/ros2_control_demos/build/ros2_control_demo_example_10': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ws/src/ros2_control_demos/example_10 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ws/src/ros2_control_demos/install/ros2_control_demo_example_10
+[0.150s] -- The CXX compiler identification is GNU 11.4.0
+[0.176s] -- Detecting CXX compiler ABI info
+[0.326s] -- Detecting CXX compiler ABI info - done
+[0.338s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.338s] -- Detecting CXX compile features
+[0.338s] -- Detecting CXX compile features - done
+[0.353s] [31mCMake Error at CMakeLists.txt:22 (find_package):
+[0.353s]   By not providing "Findbackward_ros.cmake" in CMAKE_MODULE_PATH this project
+[0.353s]   has asked CMake to find a package configuration file provided by
+[0.353s]   "backward_ros", but CMake did not find one.
+[0.353s] 
+[0.353s]   Could not find a package configuration file provided by "backward_ros" with
+[0.353s]   any of the following names:
+[0.353s] 
+[0.353s]     backward_rosConfig.cmake
+[0.353s]     backward_ros-config.cmake
+[0.353s] 
+[0.354s]   Add the installation prefix of "backward_ros" to CMAKE_PREFIX_PATH or set
+[0.354s]   "backward_ros_DIR" to a directory containing one of the above files.  If
+[0.354s]   "backward_ros" provides a separate development package or SDK, be sure it
+[0.354s]   has been installed.
+[0.354s] 
+[0.354s] [0m
+[0.355s] -- Configuring incomplete, errors occurred!
+[0.355s] See also "/home/ws/src/ros2_control_demos/build/ros2_control_demo_example_10/CMakeFiles/CMakeOutput.log".

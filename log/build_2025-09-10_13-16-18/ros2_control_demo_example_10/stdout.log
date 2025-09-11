@@ -1,0 +1,8 @@
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring incomplete, errors occurred!
+See also "/home/ws/src/ros2_control_demos/build/ros2_control_demo_example_10/CMakeFiles/CMakeOutput.log".
