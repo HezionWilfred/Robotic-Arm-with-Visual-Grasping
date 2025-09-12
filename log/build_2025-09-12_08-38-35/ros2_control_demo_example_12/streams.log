@@ -1,0 +1,39 @@
+[0.051s] Invoking command in '/home/ws/build/ros2_control_demo_example_12': CMAKE_PREFIX_PATH=/home/ws/install/ros2_control_demo_description:/home/ws/install/ros2_control_demos:/home/ws/install/ros2_control_demo_example_9:/home/ws/install/ros2_control_demo_example_8:/home/ws/install/ros2_control_demo_example_7:/home/ws/install/ros2_control_demo_example_6:/home/ws/install/ros2_control_demo_example_15:/home/ws/install/ros2_control_demo_example_13:/home/ws/install/ros2_control_demo_example_5:/home/ws/install/ros2_control_demo_example_4:/home/ws/install/ros2_control_demo_example_3:/home/ws/install/ros2_control_demo_example_2:/home/ws/install/ros2_control_demo_example_14:/home/ws/install/ros2_control_demo_example_12:/home/ws/install/ros2_control_demo_example_11:/home/ws/install/ros2_control_demo_example_10:/home/ws/install/ros2_control_demo_example_1:/opt/ros/humble /usr/bin/cmake --build /home/ws/build/ros2_control_demo_example_12 -- -j12 -l12
+[0.098s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.233s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.239s] -- Found hardware_interface: 2.51.0 (/opt/ros/humble/share/hardware_interface/cmake)
+[0.271s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.277s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.290s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.305s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.328s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.542s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.544s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.564s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.575s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.586s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.593s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.601s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.639s] [31mCMake Error at CMakeLists.txt:29 (find_package):
+[0.639s]   By not providing "Findgenerate_parameter_library.cmake" in
+[0.639s]   CMAKE_MODULE_PATH this project has asked CMake to find a package
+[0.639s]   configuration file provided by "generate_parameter_library", but CMake did
+[0.639s]   not find one.
+[0.639s] 
+[0.639s]   Could not find a package configuration file provided by
+[0.639s]   "generate_parameter_library" with any of the following names:
+[0.639s] 
+[0.639s]     generate_parameter_libraryConfig.cmake
+[0.639s]     generate_parameter_library-config.cmake
+[0.639s] 
+[0.639s]   Add the installation prefix of "generate_parameter_library" to
+[0.639s]   CMAKE_PREFIX_PATH or set "generate_parameter_library_DIR" to a directory
+[0.639s]   containing one of the above files.  If "generate_parameter_library"
+[0.639s]   provides a separate development package or SDK, be sure it has been
+[0.639s]   installed.
+[0.639s] 
+[0.639s] [0m
+[0.639s] -- Configuring incomplete, errors occurred!
+[0.639s] See also "/home/ws/build/ros2_control_demo_example_12/CMakeFiles/CMakeOutput.log".
+[0.642s] gmake: *** [Makefile:322: cmake_check_build_system] Error 1
+[0.644s] Invoked command in '/home/ws/build/ros2_control_demo_example_12' returned '2': CMAKE_PREFIX_PATH=/home/ws/install/ros2_control_demo_description:/home/ws/install/ros2_control_demos:/home/ws/install/ros2_control_demo_example_9:/home/ws/install/ros2_control_demo_example_8:/home/ws/install/ros2_control_demo_example_7:/home/ws/install/ros2_control_demo_example_6:/home/ws/install/ros2_control_demo_example_15:/home/ws/install/ros2_control_demo_example_13:/home/ws/install/ros2_control_demo_example_5:/home/ws/install/ros2_control_demo_example_4:/home/ws/install/ros2_control_demo_example_3:/home/ws/install/ros2_control_demo_example_2:/home/ws/install/ros2_control_demo_example_14:/home/ws/install/ros2_control_demo_example_12:/home/ws/install/ros2_control_demo_example_11:/home/ws/install/ros2_control_demo_example_10:/home/ws/install/ros2_control_demo_example_1:/opt/ros/humble /usr/bin/cmake --build /home/ws/build/ros2_control_demo_example_12 -- -j12 -l12

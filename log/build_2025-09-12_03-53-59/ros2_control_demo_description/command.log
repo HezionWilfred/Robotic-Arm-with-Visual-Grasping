@@ -1,0 +1,2 @@
+Invoking command in '/home/ws/build/ros2_control_demo_description': /usr/bin/cmake /home/ws/src/ros2_control_demos/ros2_control_demo_description -DCMAKE_INSTALL_PREFIX=/home/ws/install/ros2_control_demo_description
+Invoked command in '/home/ws/build/ros2_control_demo_description' returned '1': /usr/bin/cmake /home/ws/src/ros2_control_demos/ros2_control_demo_description -DCMAKE_INSTALL_PREFIX=/home/ws/install/ros2_control_demo_description

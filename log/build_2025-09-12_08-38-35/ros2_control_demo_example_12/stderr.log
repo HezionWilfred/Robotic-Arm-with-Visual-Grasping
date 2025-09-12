@@ -1,0 +1,20 @@
+[31mCMake Error at CMakeLists.txt:29 (find_package):
+  By not providing "Findgenerate_parameter_library.cmake" in
+  CMAKE_MODULE_PATH this project has asked CMake to find a package
+  configuration file provided by "generate_parameter_library", but CMake did
+  not find one.
+
+  Could not find a package configuration file provided by
+  "generate_parameter_library" with any of the following names:
+
+    generate_parameter_libraryConfig.cmake
+    generate_parameter_library-config.cmake
+
+  Add the installation prefix of "generate_parameter_library" to
+  CMAKE_PREFIX_PATH or set "generate_parameter_library_DIR" to a directory
+  containing one of the above files.  If "generate_parameter_library"
+  provides a separate development package or SDK, be sure it has been
+  installed.
+
+[0m
+gmake: *** [Makefile:322: cmake_check_build_system] Error 1

@@ -258,7 +258,7 @@ TINYXML2_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libtinyxml2.so
 TinyXML2_DIR:PATH=TinyXML2_DIR-NOTFOUND
 
 //Path to a library.
-_lib:FILEPATH=/opt/ros/humble/lib/librcl_action.so
+_lib:FILEPATH=/opt/ros/humble/lib/librcl_lifecycle.so
 
 //The directory containing a CMake configuration file for action_msgs.
 action_msgs_DIR:PATH=/opt/ros/humble/share/action_msgs/cmake
@@ -351,7 +351,7 @@ fmt_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/fmt
 foonathan_memory_DIR:PATH=/opt/ros/humble/lib/foonathan_memory/cmake
 
 //The directory containing a CMake configuration file for generate_parameter_library.
-generate_parameter_library_DIR:PATH=/opt/ros/humble/share/generate_parameter_library/cmake
+generate_parameter_library_DIR:PATH=generate_parameter_library_DIR-NOTFOUND
 
 //Path to a program.
 generate_parameter_library_cpp_BIN:FILEPATH=/opt/ros/humble/bin/generate_parameter_library_cpp

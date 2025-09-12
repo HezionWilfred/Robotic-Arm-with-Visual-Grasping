@@ -12,8 +12,21 @@ RUN groupadd --gid $USER_GID $USERNAME \
     && useradd --uid $USER_UID --gid $USER_GID -m $USERNAME \
     && apt-get update \
     && apt-get install -y sudo \
-    && echo "$USERNAME ALL=(root) NOPASSWD:ALL" > /etc/sudoers.d/$USERNAME \
-    && chmod 0440 /etc/sudoers.d/$USERNAME
+    && echo "$USERNAME ALL=(ALL) NOPASSWD:ALL" >> /etc/sudoers
+
+# Install ROS 2 and all required tools and dependencies
+RUN apt-get update && apt-get install -y \
+    ros-humble-ros2-control \
+    ros-humble-ros2-controllers \
+    ros-humble-joint-state-broadcaster \
+    ros-humble-robot-state-publisher \
+    ros-humble-joint-state-publisher-gui \
+    ros-humble-xacro \
+    ros-humble-rviz2 \
+    && rm -rf /var/lib/apt/lists/*
+
+# Ensure ros2_control_node is always on the PATH
+RUN echo 'export PATH=$PATH:/opt/ros/humble/lib/controller_manager' >> /etc/bash.bashrc
 
 # Install required tools in the same RUN (prevents cache issues)
 RUN apt-get update && apt-get upgrade -y && apt-get install -y \
